@@ -1,4 +1,7 @@
-# myapp.rb
+require 'bundler'
+Bundler.require
+
+
 require 'sinatra'
 
 get '/' do
